@@ -9,6 +9,9 @@
 # testing
 /coverage
 
+/public/bb.jpg
+/public/gacha.jpg
+
 # next.js
 /.next/
 /out/

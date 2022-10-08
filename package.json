@@ -11,13 +11,17 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3",
     "axios": "^0.27.2",
+    "browserify-fs": "^1.0.0",
     "chai": "^4.3.6",
     "dotenv": "^16.0.3",
     "hardhat": "^2.11.2",
     "ipfs-http-client": "^58.0.1",
+    "mysql": "^2.18.1",
     "next": "12.3.1",
+    "next-connect": "^0.13.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "serverless-mysql": "^1.5.4",
     "web3modal": "^1.9.9"
   },
   "devDependencies": {
@@ -36,6 +40,12 @@
   "directories": {
     "test": "test"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dev": "NODE_OPTIONS='--inspect' next dev",
   "author": "",
   "license": "ISC"
 }

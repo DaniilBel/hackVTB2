@@ -36,14 +36,29 @@ footer {
   border-top: 1px solid #eaeaea;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .menu {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: 50px;
+  top: 0px;
   left: 0;
-  /*transform: translateX(-130%);
-  transition: all 0.2s;*/
+  transform: translateX(-130%);
+  transition: all 0.2s;
+}
+
+.menu.active {
+  transform: translateX(130%);
 }
 
 .btn {
@@ -81,12 +96,6 @@ footer {
   height: 2px;
 }
 
-
-.menu.active {
-  transform: translateX(0);
-}
-
-
 .blur {
   width: 100vw;
   height: 100vh;
@@ -97,7 +106,7 @@ footer {
 .menu__content {
   width: 30%;
   height: 100%;
-  background-color: gray;
+  background-color: #F3F7FA;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,14 +120,14 @@ footer {
 .menu__header {
   padding: 10px;
   font-size: 1.5rem;
-  color: white;
-  border-bottom: 1px solid white;
+  color: black;
+  /*border-bottom: 1px solid white;*/
   width: 100%;
   text-align: center;
 }
 
 ul li {
-  color: white;
+  color:#1942C9;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -142,4 +151,8 @@ ul {
   .menu__content {
     width: 100%;
   }
+}
+
+.user img {
+  border-radius: 50%;
 }

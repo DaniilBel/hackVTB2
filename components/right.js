@@ -2,28 +2,26 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Menu from "./sidePanel/Menu"
 
-const Right = (menuActive, setMenuActive) => {
+const Right = () => {
+
+    const [menuActive, setMenuActive] = useState(false)
     
     const items = [
         {
             value: "Главная",
             href: "/main",
             icon: ""
-        },
-        {
-            value: "Урсула",
-            href: "/main",
-            icon: ""
-        },
-        {
-            value: "Главная",
-            href: "/main",
-            icon: ""
         }
     ]
+
     return (
-        <div className="menu">  
-            <Menu header={"Какое-то дерьмо"} items={items}/>
+        <div>
+            <div className="btn" onClick={() => setMenuActive(!menuActive)}>
+                <span />
+            </div>
+            <div className="menu">  
+                <Menu active={menuActive} setActive={setMenuActive} items={items}/>
+            </div>
         </div>
     )
 }

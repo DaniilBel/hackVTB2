@@ -6,24 +6,24 @@ export default function Course() {
     return (
         <div>
             <h1 className={styles.title}>Курсы</h1>
-            <Link href='/course/'>
+            <Link href='/courses/1'>
                 <a className={styles.single}>
-                    <h3> Первый курс</h3>
+                    <h3> Основы бизнеса</h3>
                 </a>
             </Link>
-            <Link href="/course/">
+            <Link href="/courses/2">
                 <a className={styles.single}>
-                    <h3> Второй курс</h3>
+                    <h3> Противодействие коррупции</h3>
                 </a>
             </Link>
-            <Link href='/course/'>
+            <Link href='/courses/3'>
                 <a className={styles.single}>
-                    <h3> Третий курс</h3>
+                    <h3> История Египта</h3>
                 </a>
             </Link>
-            <Link href="/course/">
+            <Link href="/courses/4">
                 <a className={styles.single}>
-                    <h3> Четвертый курс</h3>
+                    <h3> Основы игры за пуджа</h3>
                 </a>
             </Link>
         </div>

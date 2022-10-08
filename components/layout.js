@@ -1,6 +1,6 @@
 import Footer from "./footer"
 import Navbar from "./navbar"
-import Right from "./right"
+import Right from "./right";
 
 const Layout = ({ children }) => {
     return (
@@ -9,9 +9,8 @@ const Layout = ({ children }) => {
             <Navbar />
             {children}
             <Footer />
-            
         </div>
-    )
+    );
 }
 
 export default Layout;
