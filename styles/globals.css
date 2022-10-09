@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 body {
-  background: #f2f2f2;
-  color: #323;
+  background: #F3F7FA;
+  color: #0A28A4;
   font-family: "Nunito";
 }
 a {
-  color: #333;
+  color: #0A28A4;
   text-decoration: none;
 }
 .content {

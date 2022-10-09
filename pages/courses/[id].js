@@ -6,6 +6,7 @@ import { set, get } from "../../data/users";
 
 import Router from 'next/router'
 import styles from '../../styles/Home.module.css';
+import Cost from "../../Cost"
 
 const fs = require('browserify-fs');
 
@@ -38,7 +39,7 @@ export default function Course() {
             <p>Сложность: {course.level}</p>
             <p>Вознаграждение: {course.value} VTBT</p>
             <button className={styles.button}>
-                <div onClick={() => onclick(id)}>Записаться</div>
+                <div onClick={() => { onclick(id); Cost.addCost(course.value)}}>Записаться</div>
             </button>
         </div >
     );
