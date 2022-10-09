@@ -62,9 +62,9 @@ footer {
 }
 
 .btn {
-  width: 20px;
-  height: 20px;
-  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
   margin-top: 50px;
   position: relative;
   cursor: pointer;
@@ -73,27 +73,27 @@ footer {
 .btn span {
   position: absolute;
   top: 9px;
-  width: 20px;
+  width: 30px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .btn::before {
   content: '';
   position: absolute;
   top: 0;
-  width: 20px;
+  width: 30px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .btm::after {
   content: '';
   position: absolute;
   bottom: 0;
-  width: 20px;
+  width: 30px;
   background-color: black;
-  height: 2px;
+  height: 3px;
 }
 
 .blur {
@@ -139,8 +139,12 @@ ul li {
   margin: 10px 0;
 }
 
+ul li {
+  align-items: center;
+}
+
 ul {
-  text-align: center;
+  text-align: left;
   display: flex;
   align-items: center;
   flex-direction: column;
