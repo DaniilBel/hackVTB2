@@ -33,6 +33,69 @@ export default function Market() {
                     <div onClick={() => Cost.downCost(1)}>Приобрести (1 VTBT)</div>
                 </button>
             </div>
+            <br />
+            <div className={styles.single}>
+                <img src='nft1.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft2.jpg' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft3.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft4.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <br />
+            <div className={styles.single}>
+                <img src='nft5.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft6.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft7.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='nft8.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(1)}>Приобрести NFT (1 VTBT)</div>
+                </button>
+            </div>
+            <br />
+            <div className={styles.single}>
+                <img src='promobot.png' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(100)}>Приобрести (100 VTBT)</div>
+                </button>
+            </div>
+            <div className={styles.single}>
+                <img src='carpet.jpg' height={h} width={w}/>
+                <button className={styles.button}>
+                    <div onClick={() => Cost.downCost(2)}>Приобрести (2 VTBT)</div>
+                </button>
+            </div>
         </div>
     );
 

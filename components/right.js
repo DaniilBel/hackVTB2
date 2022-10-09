@@ -9,7 +9,7 @@ const Right = () => {
     const items = [
         {
             value: "Главная",
-            href: "/main",
+            href: "/",
             icon: ""
         }
     ]

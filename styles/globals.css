@@ -114,7 +114,12 @@ footer {
 }
 
 .menu__content a {
-  color: blue;
+  color: #1942C9;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
 
 .menu__header {
@@ -128,7 +133,6 @@ footer {
 
 ul li {
   color:#1942C9;
-  text-decoration: none;
   display: flex;
   align-items: center;
   font-size: 1.3rem;

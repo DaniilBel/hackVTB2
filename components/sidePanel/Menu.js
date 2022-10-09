@@ -1,5 +1,6 @@
 import React from "react"
 import User from "./User"
+import Link from 'next/link'
 
 const Menu = ({header, items, active, setActive}) => {
 
@@ -18,6 +19,9 @@ const Menu = ({header, items, active, setActive}) => {
                         </li>
                     )}
                 </ul> */}
+                {items.map(item =>
+                    <Link href={item.href}>{item.value}</Link>
+                )}
 
             </div>
         </div>
